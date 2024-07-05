@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Dropdowns</title>
+	<style>
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #1ed63a;
+			min-width: 900px;
+			padding: 8px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+		.dropdown:hover .dropdown-content { display: block; }
+        #Youtube{
+         margin: 0px 0px 15px 0px;   
+
+        }
+       .wrapper{
+            display:grid;
+            place-items:center;
+            min-height:70dvh;
+        }
+        span{
+margin:0px 0px 15px 0px;
+        }
+        #Mouse{text-align:center;
+        }
+        h1{
+            font-size:100px;
+            text-align:center;
+        }
+        span{font-size:60px;
+
+        }
+        p{
+            font-size:35px;
+            text-align:center;
+        }
+        #Korean{
+            text-align:center;
+        }
+   
+	</style>
+</head>
+
+<body>
+    <div class="wrapper">
+<div class="content">
+	<h1>New Effect<br>
+        새로운 효과
+    </h1>
+	<div class="dropdown">
+		<span><div id="Youtube">Jinsu Choi's(진수 최) Youtube Channel</div>
+              <div id="Mouse">Mouse Over Here~ ^^</div>
+              <div id="Korean">마우스 여기 위에 올려보세요~</div>
+        </span>
+		<div class="dropdown-content">
+
+            <p><a href="https://youtube.com/@jinsu-choi-86?si=2QwN8sChyddaP4Yf">https://youtube.com/@jinsu-choi-86?si=2QwN8sChyddaP4Yf</a></p>
+			
+		</div>
+	</div>
+    </div>
+    </div>
+
+</body>
+
+</html>
